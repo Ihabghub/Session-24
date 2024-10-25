@@ -14,7 +14,7 @@ const WeatherWidget: React.FC = () => {
   }, [city, fetchWeather]);
 
   return (
-    <div className="p-6 max-w-xl mx-auto bg-white shadow-md rounded-lg">
+    <div className="p-8 max-w-lg mx-auto bg-white shadow-lg rounded-lg">
       <CitySelector />
       <CurrentConditions />
       <Forecast />
